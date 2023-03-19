@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}ABOUT | Portfolio Website{% endblock %}
+
+{% block content %} 
+    <div class="about container-fluid d-flex  flex-lg-row flex-wrap justify-content-around align-items-center pt-5 pe-5 ps-5">
+        <h1 class="color-df">Hi! I'm <span class="color-otv">NijiDEV</span> and this is my <span>Portfolio...</span>
+            <p>I'm currently studying Computer Science at a public university.
+                I'm a freelance Programmer and I do <i class="color-otv">Software development</i> ,
+                <i class="color-otv">Game Development</i>, and <i class="color-otv">Web application projects</i>.
+            </p>
+        </h1>
+        <img src="{{url_for('static', filename='images/home-logo.png')}}" alt="">
+    </div>
+{% endblock %}

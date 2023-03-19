@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}SKILLS | Portfolio Website{% endblock %}
+
+{% block content %} 
+    <div class="skills container-fluid d-flex flex-lg-row flex-wrap justify-content-around align-items-center pt-5 pe-5 ps-5 mt-5">
+        <img src="{{url_for('static', filename='images/pl.png')}}" alt="">
+        <img src="{{url_for('static', filename='images/okl.png')}}" alt="">
+        <img src="{{url_for('static', filename='images/mft.png')}}" alt="">
+    </div>
+{% endblock %}
